@@ -1,0 +1,169 @@
+/* Abyss Toolkit - Light Theme v2.0 */
+
+.root {
+    -fx-background-color: #F0F0F0;
+    -fx-text-color: #1A1A1A;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    -fx-font-size: 13px;
+    -fx-card-bg: #FFFFFF;
+    -fx-border-color: #D0D0D0;
+}
+
+.sidebar {
+    -fx-background-color: #F8F8F8;
+    -fx-border-color: transparent #D0D0D0 transparent transparent;
+    -fx-border-width: 0 1 0 0;
+}
+
+.brand-label {
+    -fx-text-fill: #8B6A3A;
+    -fx-font-size: 22px;
+    -fx-font-weight: 800;
+    -fx-letter-spacing: 3px;
+}
+
+.brand-sub-label {
+    -fx-text-fill: #999999;
+    -fx-font-size: 10px;
+    -fx-letter-spacing: 1px;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #555555;
+    -fx-padding: 12 16 12 16;
+    -fx-font-size: 13px;
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+
+.nav-button:hover {
+    -fx-background-color: #E8E8E8;
+    -fx-text-fill: #8B6A3A;
+}
+
+.nav-button-active {
+    -fx-background-color: #E8E8E8;
+    -fx-text-fill: #8B6A3A;
+    -fx-border-color: transparent transparent transparent #8B6A3A;
+    -fx-border-width: 0 0 0 3;
+}
+
+.text-field, .text-area, .combo-box, .spinner, .list-view, .table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #1A1A1A;
+    -fx-control-inner-background: #FFFFFF;
+    -fx-background-radius: 4;
+    -fx-border-color: #D0D0D0;
+    -fx-border-radius: 4;
+}
+
+.text-area .scroll-pane, .text-area .content {
+    -fx-background-color: #FFFFFF;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #E8E8E8;
+}
+
+.table-view .column-header {
+    -fx-background-color: #E8E8E8;
+    -fx-text-fill: #8B6A3A;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #1A1A1A;
+    -fx-border-color: #D0D0D0;
+}
+
+.tab-pane .tab-header-area .tab {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #555555;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #E8E8E8;
+}
+
+.tab-pane .tab-label {
+    -fx-text-fill: #1A1A1A;
+}
+
+.button {
+    -fx-background-color: #D0D0D0;
+    -fx-text-fill: #1A1A1A;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-padding: 8 18;
+}
+
+.button:hover {
+    -fx-background-color: #C0C0C0;
+}
+
+.button-primary {
+    -fx-background-color: #8B6A3A;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button-primary:hover {
+    -fx-background-color: #A07A4A;
+}
+
+.button-danger {
+    -fx-background-color: #B33A3A;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button-danger:hover {
+    -fx-background-color: #CC4A4A;
+}
+
+.button-success {
+    -fx-background-color: #3A7A4A;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button-success:hover {
+    -fx-background-color: #4A8A5A;
+}
+
+.progress-bar .bar {
+    -fx-background-color: #8B6A3A;
+}
+
+.progress-bar .track {
+    -fx-background-color: #E0E0E0;
+}
+
+.section-title {
+    -fx-text-fill: #8B6A3A;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+}
+
+.stat-card {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 8;
+    -fx-border-color: #D0D0D0;
+    -fx-border-radius: 8;
+}
+
+.stat-value {
+    -fx-text-fill: #8B6A3A;
+    -fx-font-size: 26px;
+    -fx-font-weight: 700;
+}
+
+.stat-label {
+    -fx-text-fill: #888888;
+    -fx-font-size: 12px;
+}
+
+.console-output {
+    -fx-control-inner-background: #F8F8F8;
+    -fx-text-fill: #2A6A3A;
+    -fx-font-family: "Consolas", "Courier New", monospace;
+}
