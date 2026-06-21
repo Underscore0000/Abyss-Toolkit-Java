@@ -23,7 +23,6 @@ A modern all-in-one toolkit for network reconnaissance, web security analysis, O
 
 <br><br>
 
-<img src="docs/images/banner.png" width="100%">
 
 </div>
 
@@ -247,25 +246,6 @@ The integrated dashboard provides:
 * Historical Activity
 * CSV Export
 
----
-
-# 📸 Screenshots
-
-<div align="center">
-
-### Dashboard
-
-<img src="docs/screenshots/dashboard.png" width="90%">
-
-### Network Scanner
-
-<img src="docs/screenshots/network.png" width="90%">
-
-### Security Analysis
-
-<img src="docs/screenshots/security.png" width="90%">
-
-</div>
 
 ---
 
@@ -274,7 +254,7 @@ The integrated dashboard provides:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/abyss-toolkit.git
+git clone https://github.com/Underscore000/abyss-toolkit.git
 cd abyss-toolkit
 ```
 
